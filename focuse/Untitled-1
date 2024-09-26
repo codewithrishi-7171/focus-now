@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer</title>
+    <link rel="stylesheet" href="u.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stay Focused</h1>
+        <div class="tree-container">
+            <!-- <img id="tree" src="sapling.png" alt="Tree"> -->
+        </div>
+        <div class="timer">
+            <p id="time">25:00</p>
+        </div>
+        <div class="controls">
+            <button id="start">Start Focus</button>
+            <button id="stop">Stop Focus</button>
+            <button id="resume">Resume Focus</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="timer-selection">
+            <h3>Select Timer:</h3>
+            <button id="set25">25 Minutes</button>
+            <button id="set15">15 Minutes</button>
+            <button id="set5">5 Minutes</button>
+        </div>
+        
+        <!-- Add an audio element for the alarm -->
+        <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
+        
+    </div>
+
+    <script src="u.js"></script>
+</body>
+</html>
